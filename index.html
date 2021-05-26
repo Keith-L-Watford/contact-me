@@ -14,44 +14,55 @@
 <body>
     <header class="header">
         <h1>Carrots R Us</h1>
-        <nav>
+        <nav class="container">
             <ul>
                 <li>
-                    <a href="about-us">About Us</a>
+                    <a href="#">About Us</a>
                 </li>
                 <li>
-                    <a href="contact-us">Contact Us</a>
+                    <a href="Contact">Contact Us</a>
                 </li>
             </ul>
         </nav>
     </header>
-<p>
-    <img id="image" src="./assets/300x200.jpeg" alt="Steven Segal enjoying a carrot.">
-
-    <section class="container">
-        <form id="nameemail" action="action_page.php">
-      
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="wholename" placeholder="Your name..">
-      
-          <label for="email">Email:</label>
-          <input type="text" id="email" name="email" placeholder="Your email..">
-        </form>
-        <form id="textbox">   
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="When did you fall in love with carrots.." style="height:75px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
+    <br>
+    <br>
+    <br>
+    <section class="center">
+        <img id="image" src="./assets/300x200.jpeg" alt="Steven Segal enjoying a carrot.">
+        <figcaption>A man enjoying one of our carrots</figcaption>
     </section>
-    </p>
+    <br>
+    <br>
+    <article class="center" class="container">
+        <form id="nameemail" action="action_page.php">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="wholename" placeholder="Your name..">
+                <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Your email.." style="width: 138px;">
+        </form>
+        <form id="textbox">
+            <label for="subject">Subject:</label>
+            <br>
+            <textarea id="subject" name="subject" placeholder="When did you fall in love with carrots.."
+                style="height:30px; width: 150px;"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </article>
+    </section>
+
 </body>
 
 </html>
 
-<footer>
+<footer class="center">
     &#169; Copyright 2018-2021 Carrots R Us
+    <br>
+    test
 </footer>
 
 </html>
